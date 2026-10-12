@@ -1,6 +1,6 @@
 baseURL = "https://example.com/"
-locale = "en-us"
-title = "Cactus"
+locale = "zh-cn"
+title = "BEI-GUO"
 #theme = "hugo-theme-cactus"
 theme = "cactus"  # when consumed as a Hugo module
 enableEmoji = true
@@ -24,7 +24,7 @@ enableEmoji = true
     weight = 3
   [[menus.main]]
     name = "projects"
-    url = "http://github.com/probberechts"
+    url = "https://github.com/SouthBei"
     weight = 4
   [[menus.main]]
     name = "search"
@@ -51,11 +51,11 @@ enableEmoji = true
 # Theme options — all Hexo `theme.*` / `_config.yml` keys move under [params].
 # ───────────────────────────────────────────────────────────────────────
 [params]
-  author = "Pieter Robberechts"
-  description = "Hi, I'm a theme for the Hugo static site generator. I'm particularly great for a personal web page with a simple blog. In this paragraph, you can provide some information about yourself. Below, your most recent or highlighted writings and projects are listed."
+  author = "bei guo"
+  description = "Hi, I'm a beiguo. I like nothing."
   dateFormat = "2 Jan 2006"        # matches the demo, e.g. "14 Nov 2016"
   direction = "ltr"                 # "rtl" loads the Vazir font
-  projectsUrl = "http://github.com/probberechts"
+  projectsUrl = "https://github.com/SouthBei"
 
   # Look & feel (injected into Sass via css.Sass `vars` — §6)
   colorscheme = "dark"              # dark | light | classic | white
@@ -116,7 +116,7 @@ enableEmoji = true
     enabled = true
   [params.disqus]
     enabled = false
-    shortname = "cactus-1"
+    shortname = "beiguo-1"
   [params.utterances]
     enabled = false
     repo = "owner/githubrepo"
@@ -149,11 +149,11 @@ enableEmoji = true
   # Social links — Hexo `social_links` array → array-of-tables.
   [[params.socialLinks]]
     icon = "github"
-    link = "https://github.com/probberechts/hexo-theme-cactus"
+    link = "https://github.com/SouthBei"
   [[params.socialLinks]]
     icon = "mail"
-    link = "mailto:name@email.com"
+    link = "mailto:soubeibei@gmail.com"
   [[params.socialLinks]]
     icon = "mastodon"
     label = "mastodon.social"
-    link = "https://mastodon.social/@alice"
+    link = ""
